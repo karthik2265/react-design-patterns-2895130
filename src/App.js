@@ -44,7 +44,9 @@ function App() {
 	return (
 		<>
 		<Modal>
-			<LargeProductListItem product={products[0]} />
+			<div>
+				<h1>my modal content whatever...</h1>
+			</div>
 		</Modal>
 		</>
 	);
